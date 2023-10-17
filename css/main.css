@@ -17,6 +17,14 @@ html {
   line-height: 1.4;
 }
 
+.alphapic{
+    width: 25px;
+    height: auto;
+}
+.alpha{
+    display:inline-block;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -260,4 +268,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
