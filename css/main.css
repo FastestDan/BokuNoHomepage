@@ -18,13 +18,12 @@ html {
 }
 
 .alphapic{
-    width: 25px;
-    height: auto;
+  width: 25px;
+  height: auto;
 }
 .alpha{
-    display:inline-block;
+  display:inline-block;
 }
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -36,12 +35,12 @@ html {
  */
 
 ::-moz-selection {
-  background: #0074ff;
+  background: #b3d4fc;
   text-shadow: none;
 }
 
 ::selection {
-  background: #ff9f00;
+  background: #b3d4fc;
   text-shadow: none;
 }
 
