@@ -1,0 +1,10 @@
+node_modules
+dist
+.cache
+.idea
+.gitattributes
+doc/css.md
+doc/extend.md
+doc/faq.md
+*.md
+LICENSE.txt

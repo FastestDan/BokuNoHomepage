@@ -11,18 +11,35 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+@font-face{
+  font-family: "AlphaTalk";
+  src: url(fonts/alpha.ttf);
+}
+
+@font-face {
+  font-family: "FDTalk";
+  src: url(fonts/fd.ttf);
+}
+
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  background: orange;
+  color: white;
+  font-family: FDTalk;
 }
 
 .alphapic{
   width: 25px;
   height: auto;
+  background: #000000;
 }
 .alpha{
   display:inline-block;
+  background: #000000;
+  color: cyan;
+  font-family: "AlphaTalk";
 }
 /*
  * Remove text-shadow in selection highlight:
@@ -35,13 +52,14 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: white;
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
-  text-shadow: none;
+  background: #00ffff;
+  color: black;
+  text-shadow: none
 }
 
 /*
@@ -267,3 +285,4 @@ textarea {
     page-break-after: avoid;
   }
 }
+
