@@ -8,3 +8,5 @@ doc/extend.md
 doc/faq.md
 *.md
 LICENSE.txt
+/test.html
+/test.css

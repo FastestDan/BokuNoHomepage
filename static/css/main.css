@@ -8,8 +8,51 @@
   src: url(fonts/fd.ttf);
 }
 
+body, html{
+  height: 100%;
+  margin: 0;
+  height: 100vh;
+}
+
 * {
   box-sizing: border-box;
+}
+#anim {
+  background: linear-gradient(180deg, #ffa500, #00daff);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 42s ease infinite;
+  -moz-animation: AnimationName 42s ease infinite;
+  -o-animation: AnimationName 42s ease infinite;
+  animation: AnimationName 42s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:81% 0%}
+  50%{background-position:20% 100%}
+  100%{background-position:81% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:81% 0%}
+  50%{background-position:20% 100%}
+  100%{background-position:81% 0%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:81% 0%}
+  50%{background-position:20% 100%}
+  100%{background-position:81% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:81% 0%}
+  50%{background-position:20% 100%}
+  100%{background-position:81% 0%}
+}
+/*#anim{*/
+/*  background: orange;*/
+/*}*/
+
+#title{
+  background: orange;
 }
 
 html {
